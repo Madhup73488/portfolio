@@ -43,17 +43,25 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blogs.html">Blog</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-
     <!-- Hero Section -->
-    <section id="home" class="bg-purple text-white text-center py-5">
-      <div class="container">
-        <h1>Hello, I'm Madhu</h1>
-        <p>Product Solution Engineer & Full Stack Developer</p>
-        <a href="#projects" class="btn btn-light mt-3">View My Work</a>
+    <section class="hero-section" style="height: 300px">
+      <div class="gradient-overlay"></div>
+      <div class="content">
+        <h1 class="display-4">Namaste</h1>
+        <p class="lead">
+          Welcome to my portfolio, navigate to variour sections to get through
+          the portfolio
+        </p>
+        <a href="/blogs.html#latest-posts" class="btn btn-primary"
+          >Read Latest Posts</a
+        >
       </div>
     </section>
 
@@ -142,7 +150,7 @@
 
             <!-- CTA Button -->
             <div class="text-center mt-4">
-              <a href="#projects" class="btn bg-purple btn-lg"
+              <a href="#projects" class="btn bg-purple-btn btn-lg"
                 >Explore My Work</a
               >
             </div>
@@ -266,26 +274,10 @@
               </div>
             </div>
           </div>
-
-          <!-- Repeat similar project blocks -->
         </div>
       </div>
     </section>
 
-    <!-- Skills Section -->
-    <!-- <section id="skills" class="py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Skills</h2>
-        <div class="row text-center">
-          <div class="col-md-2">HTML</div>
-          <div class="col-md-2">CSS</div>
-          <div class="col-md-2">JavaScript</div>
-          <div class="col-md-2">React</div>
-          <div class="col-md-2">Node.js</div>
-          <div class="col-md-2">MongoDB</div>
-        </div>
-      </div>
-    </section> -->
     <!-- Skills Section -->
     <section id="skills" class="py-5 bg-light text-dark">
       <div class="container">
@@ -416,7 +408,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-5 bg-light">
+    <!-- <section id="contact" class="py-5 bg-light">
       <div class="container">
         <h2 class="text-center mb-4">Contact Me</h2>
         <form class="mx-auto" style="max-width: 600px">
@@ -438,25 +430,94 @@
           </button>
         </form>
       </div>
-    </section>
+    </section> -->
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-4">
-      <div class="container">
-        <p>&copy; 2024 Madhu's Portfolio</p>
-        <div class="social-media-links">
-          <a href="#" class="text-white mx-3" aria-label="LinkedIn">
-            <i class="fab fa-linkedin fa-lg"></i>
-          </a>
-          <a href="#" class="text-white mx-3" aria-label="GitHub">
-            <i class="fab fa-github fa-lg"></i>
-          </a>
-          <a href="#" class="text-white mx-3" aria-label="WhatsApp">
-            <i class="fab fa-whatsapp fa-lg"></i>
-          </a>
-          <a href="#" class="text-white mx-3" aria-label="YouTube">
-            <i class="fab fa-youtube fa-lg"></i>
-          </a>
+    <!-- Advanced Footer -->
+    <footer id="contact" class="bg-dark text-white pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <!-- About Section -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-purple">
+              About Me
+            </h5>
+            <p>
+              A passionate Product Solution Engineer and Full Stack Developer,
+              crafting powerful, scalable, and elegant digital solutions.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-purple">
+              Quick Links
+            </h5>
+            <p><a href="#home" class="text-white">Home</a></p>
+            <p><a href="#about" class="text-white">About</a></p>
+            <p><a href="#projects" class="text-white">Projects</a></p>
+            <p><a href="#contact" class="text-white">Contact</a></p>
+          </div>
+
+          <!-- Get In Touch -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-purple">
+              Get In Touch
+            </h5>
+            <p><i class="fas fa-map-marker-alt"></i> Bangalore, India</p>
+            <p>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:madhup73488@gmail.com" class="text-white"
+                >madhup73488@gmail.com</a
+              >
+            </p>
+            <p><i class="fas fa-phone"></i> +91 7975402569</p>
+          </div>
+
+          <!-- Social Media -->
+          <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-purple">
+              Follow Me
+            </h5>
+            <div id="social-icons" class="d-flex justify-content-center">
+              <a
+                href="https://www.linkedin.com/in/madhu-p-84b4b322a/"
+                target="_blank"
+                class="text-white mx-3"
+              >
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <a
+                href="https://github.com/Madhup73488"
+                target="_blank"
+                class="text-white mx-3"
+              >
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              <a
+                href="https://whatsapp.com/channel/0029VahCwTwA2pLKPoCsgM1M"
+                target="_blank"
+                class="text-white mx-3"
+              >
+                <i class="fab fa-whatsapp fa-2x"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/@Madhu_P"
+                target="_blank"
+                class="text-white mx-3"
+              >
+                <i class="fab fa-youtube fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row d-flex justify-content-center mt-4">
+          <div class="col-md-8 text-center">
+            <p class="mb-0">
+              &copy; 2024 Madhu's Portfolio | Designed by Madhu P
+            </p>
+          </div>
         </div>
       </div>
     </footer>
@@ -466,5 +527,6 @@
       src="https://kit.fontawesome.com/a92a0d50c8.js"
       crossorigin="anonymous"
     ></script>
+    <script src="/script.js"></script>
   </body>
 </html>
